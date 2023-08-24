@@ -5,8 +5,14 @@ export function EmptyTasks() {
     <div className={styles.container}>
       <div className={styles.content}>
         <img src={clipboard} alt="" />
-        <p>Você ainda não tem tarefas cadastradas</p>
-        <p>Crie tarefas e organize seus itens a fazer</p>
+        <div>
+          <p className={styles.firstLine}>
+            Você ainda não tem tarefas cadastradas
+          </p>
+          <p className={styles.secondLine}>
+            Crie tarefas e organize seus itens a fazer
+          </p>
+        </div>
       </div>
     </div>
   );
