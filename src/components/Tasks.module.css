@@ -1,0 +1,17 @@
+.container {
+  width: 736px;
+  padding-top: 91px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid blue;
+}
+.amountBar {
+  width: 100%;
+  height: 19px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
